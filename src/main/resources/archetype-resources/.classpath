@@ -1,0 +1,14 @@
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+  <classpathentry kind="src" path="src/test/java" output="target/test-classes" including="**/*.java"/>
+  <classpathentry kind="src" path="src/main/java" including="**/*.java"/>
+  <classpathentry kind="src" path="src/main/resources" excluding="**/*.java"/>
+  <classpathentry kind="output" path="target/classes"/>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+  <classpathentry kind="var" path="M2_REPO/com/github/jobop/anylog-spi/1.0.0/anylog-spi-1.0.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/github/jobop/anylog-tools/1.0.0/anylog-tools-1.0.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/github/jobop/anylog-common/1.0.0/anylog-common-1.0.0.jar"/>
+</classpath>

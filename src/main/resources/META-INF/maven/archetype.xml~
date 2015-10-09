@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><archetype>
+  <id>anylogspi</id>
+  <sources>
+    <source>src/main/java/InsertLogBeforeHandler.java</source>
+    <source>src/main/java/InsertLogBeforeDescriptor.java</source>
+    <source>src/main/java/InsertLogAfterDescriptor.java</source>
+    <source>src/main/java/InsertLogAfterHandler.java</source>
+  </sources>
+  <resources>
+    <resource>src/main/resources/META-INF/services/com.github.jobop.anylog.spi.TransformHandler</resource>
+    <resource>src/main/resources/META-INF/services/com.github.jobop.anylog.spi.TransformDescriptor</resource>
+    <resource>assembly.xml</resource>
+  </resources>
+</archetype>
