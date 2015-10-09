@@ -3,9 +3,35 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.github.jobop</groupId>
   <artifactId>anylogspi-archetype</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>1.0.0</version>
   <packaging>maven-archetype</packaging>
   <name>anylogspi-archetype</name>
+	<url>https://github.com/jobop/anylogspi-archetype</url>
+	<parent>
+		<groupId>org.sonatype.oss</groupId>
+		<artifactId>oss-parent</artifactId>
+		<version>7</version>
+	</parent>
+	<licenses>
+		<license>
+			<name>The Apache Software License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+	<scm>
+		<connection>scm:git:git://github.com/jobop/anylogspi-archetype.git</connection>
+		<developerConnection>scm:git:git@github.com:jobop/anylogspi-archetype.git</developerConnection>
+		<url>https://github.com/jobop/anylogspi-archetype</url>
+		<tag>HEAD</tag>
+	</scm>
+	<developers>
+		<developer>
+			<id>jobop</id>
+			<name>jobop</name>
+			<email>zw19860913@163.com</email>
+		</developer>
+	</developers>	
   <build>
     <extensions>
       <extension>
