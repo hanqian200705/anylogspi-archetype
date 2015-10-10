@@ -18,7 +18,7 @@
 		<dependency>
 			<groupId>com.github.jobop</groupId>
 			<artifactId>anylog-spi</artifactId>
-			<version>1.0.0</version>
+			<version>1.0.3</version>
 			<scope>provided</scope>
 		</dependency>
 	</dependencies>
